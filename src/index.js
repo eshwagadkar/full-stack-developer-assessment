@@ -2,6 +2,8 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './scripts/App';
 
+import './styles/styles.css';
+
 if( process.env.NODE_ENV === 'production' ) {
    console.log('Production Mode');
 } else if ( process.env.NODE_ENV === 'development' ) {
