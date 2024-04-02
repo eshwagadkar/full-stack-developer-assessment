@@ -46,10 +46,6 @@ const config = {
                 test: /\.css$/i,
                 use: [ stylesHandler, 'css-loader' ]
             },
-            { 
-                test: /\.s[ac]ss$/i, 
-                use: [ stylesHandler, 'css-loader', 'sass-loader'] 
-            },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
