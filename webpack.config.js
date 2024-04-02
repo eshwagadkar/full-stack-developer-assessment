@@ -66,9 +66,9 @@ const config = {
         //     ]
         // }),
         new HtmlWebpackPlugin({
-            title: 'Update this accordingly...',
+            title: 'Full Stack Developer Assessment',
             template: `./${sourceDir}/index.hbs`,
-            description: 'Some Description of your choice'
+            description: 'Assessment solution for a full-stack-developer role.'
         })
     ],
     optimization: {
