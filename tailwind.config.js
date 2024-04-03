@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './src/*.hbs', './docs/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'logo' : ['"boucherie-cursive"', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
